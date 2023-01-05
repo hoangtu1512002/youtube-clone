@@ -1,0 +1,29 @@
+.sidebar {
+  width: var(--witdh-sidebar);
+  margin-left: 10px;
+  position: fixed;
+  z-index: 99;
+  margin-top: var(--margin-top);
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  &__link:hover {
+    background: var(--bg-color);
+  }
+}
+
+.sidebar.left {
+  width: calc(var(--witdh-sidebar) - 160px);
+}

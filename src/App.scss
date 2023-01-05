@@ -1,0 +1,20 @@
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.content {
+  margin-left: 260px;
+  flex: 1;
+  margin-right: 50px;
+  margin-top: var(--margin-top);
+  margin-bottom: 20px;
+}
+
+.content.full {
+  margin-left: 100px;
+}
